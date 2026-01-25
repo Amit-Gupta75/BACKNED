@@ -1,0 +1,24 @@
+{
+  "name": "full-stack",
+  "version": "1.0.0",
+  "description": "backned series",
+  "keywords": [
+    "javascript",
+    "backned"
+  ],
+  "homepage": "https://github.com/Amit-Gupta75/BACKNED#readme",
+  "bugs": {
+    "url": "https://github.com/Amit-Gupta75/BACKNED/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amit-Gupta75/BACKNED.git"
+  },
+  "license": "ISC",
+  "author": "Amit Gupta",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
