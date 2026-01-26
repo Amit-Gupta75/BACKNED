@@ -24,8 +24,7 @@ import fs from "fs"
         fs.unlinkSync(localFilePath) // remove the locally saved temporary file as the upload operation got failed
         return null;
     }
-}
-
+};
 
 
 export {uploadOnCloudinary}
