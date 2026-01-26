@@ -21,7 +21,11 @@ import fs from "fs"
         return response;
 
     } catch (error) {
-        fs.unlinkSync(localFilePath) // remove the locally saved temporary file as the upload operation got failed
+        console.log("Cloudinary error:", error.message)
+        if(fs.existsSync(localFilePath)){ 
+        fs.unlinkSync(localFilePath)
+        }
+         // remove the locally saved temporary file as the upload operation got failed
         return null;
     }
 };
